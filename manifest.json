@@ -1,12 +1,12 @@
 {
-  "name": "Dual.Infodose · Mini Módulo Config DI",
-  "short_name": "Dual.Infodos",
+  "name": "Dual.Infodose · DSJSUSS mod DI",
+  "short_name": "m0d.DSJSUSS",
   "description": "",
   "lang": "pt-BR",
-  "start_url": "./",
+  "start_url": "./splash.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#050715",
+  "background_color": "#010708",
+  "theme_color": "#010708",
   "orientation": "any",
   "icons": [
     {
