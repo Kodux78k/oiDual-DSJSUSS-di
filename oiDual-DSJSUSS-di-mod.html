@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dual.Infodose · Mini Módulo Config DI</title>
+  <meta name="theme-color" content="#050715">
+
+<link rel="apple-touch-icon" href="./icon-192.png">
+
+<!-- Manifest -->
+<link rel="manifest" href="./manifest.json">
+
+  
+<link rel="stylesheet" href="https://kodux78k.github.io/oiDual-DSJSUSS-di/css/main.css"></head>
+<body>
+
+  <div class="dual-chat-module" id="dualChatModule" aria-live="polite">
+    <div class="response-container" id="response">
+      <div class="pages-wrapper" id="pagesWrapper">
+        <div class="page initial active" data-page-index="0">
+          <strong id="bootText" class="pulse" data-text="...">
+            🧬 Carregando configurações DI...
+          </strong>
+        </div>
+      </div>
+
+      <p class="footer-text" id="footerHint">
+        <span class="footer-dot"></span>
+        Configurações DI Ativas.
+      </p>
+
+      <div class="response-controls">
+        <div class="control-buttons">
+          <button class="icon-btn" id="copyBtn">⧉</button>
+          <button class="icon-btn" id="toggleSettingsBtn">⚙</button>
+        </div>
+        <div class="pagination">
+          <button id="pagePrev">⟵</button>
+          <span id="pageIndicator">1 / 1</span>
+          <button id="pageNext">⟶</button>
+        </div>
+      </div>
+
+      <div id="iaConfigPanel">
+        <div id="iaConfigHeader">
+          <span>Config DI · Storage</span>
+          <button type="button" class="ia-close-btn" id="closeIaConfigPanelBtn">✕</button>
+        </div>
+        <div class="ia-config-body">
+          <div class="ia-field">
+            <label for="apiKeyInput">DI API Key (di_apiKey)</label>
+            <input id="apiKeyInput" type="password" placeholder="sk-or-..." autocomplete="off">
+          </div>
+          <div class="ia-field">
+            <label for="modelSelect">Modelo (di_modelName)</label>
+            <select id="modelSelect">
+              <option value="deepseek/deepseek-chat-v3-0324:free">deepseek-v3 · free</option>
+              <option value="meta-llama/llama-3.1-70b-instruct:free">Llama 3.1 70B · free</option>
+              <option value="openai/gpt-4.1-mini">GPT-4.1 mini</option>
+              <option value="custom">Custom (digitar)</option>
+            </select>
+          </div>
+          <div class="ia-field">
+            <label for="customModelInput">Modelo Custom</label>
+            <input id="customModelInput" type="text" placeholder="ex: google/gemini-2.0-flash-exp:free">
+          </div>
+          <div class="ia-actions">
+            <button class="pill-btn" id="saveIaConfigBtn" type="button">Salvar Config DI</button>
+            <button class="pill-btn secondary" id="clearIaConfigBtn" type="button">Limpar Tudo</button>
+          </div>
+          <div class="ia-status" id="iaStatus">Verificando storage...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <input id="userInput" type="text" placeholder="Digite sua mensagem...">
+      <button id="sendBtn" type="button">➤</button>
+      <button id="voiceBtn" type="button">🔘</button>
+    </div>
+  </div>
+
+  
+
+
+
+  <div class="theme-toggle" onclick="toggleTheme()"></div>
+
+  <div class="content">
+    <iframe id="frame" src="https://kodux78k.github.io/oiDual-oiio/sFusi-szplasherzs.html" class="active"></iframe>
+  </div>
+
+ <!-- <div class="symbol-bar">
+    <button class="symbol-button" onclick="loadPage('https://kodux78k.github.io/oiDual-0i0/')">◉</button>
+    <button class="symbol-button" onclick="loadPage('https://kodux78k.github.io/oiDual-duali/')">◉</button>
+    <button class="symbol-button" onclick="loadPage('https://kodux78k.github.io/oiDual-oiio/sFusi-szplasherzs.html')">◉</button>
+  </div> -->
+
+  <button class="lock-button" onclick="loadPage('https://kodux78k.github.io/oiDual-di0ib/splash.html')"></button>
+
+  <script src="https://kodux78k.github.io/oiDual-DSJSUSS-di/js/modules/inline-0.js"></script>
+
+
+
+<!-- <script type="module" src="https://kodux78k.github.io/oiDual-DSJSUSS-di/js/main.js"> -->
+
+</script></body></html>
